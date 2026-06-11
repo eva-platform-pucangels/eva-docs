@@ -50,6 +50,21 @@ A EVA inverte essa lógica: a inteligência roda na máquina do usuário, os dad
 
 O projeto está na fase de **mobilização e formação do time fundador**. O grupo de desenvolvimento no WhatsApp foi criado, mensagens de engajamento foram disparadas ao longo da semana, e a **reunião de kickoff** foi convocada para quinta-feira, 11/6, às 19h — cobrindo visão e objetivos, organização do time e frentes de trabalho, e primeiros passos técnicos.
 
+Uma **versão inicial da documentação técnica (SDD)** já foi elaborada como proposta para discussão no kickoff — ver seção [Especificação técnica (SDD)](#especificação-técnica-sdd).
+
+## Especificação técnica (SDD)
+
+A documentação de design da EVA segue a metodologia **Spec-Driven Development (SDD)** do [GitHub Spec Kit](https://learn.microsoft.com/pt-br/training/modules/spec-driven-development-github-spec-kit-greenfield-intro/): **constituição → especificação → plano → tarefas**. Os artefatos estão em [sdd/](sdd/) e são **documentos vivos**, atualizados conforme o projeto evolui.
+
+| Artefato | Responde | Conteúdo |
+|---|---|---|
+| [constitution.md](sdd/constitution.md) | Quais regras são inegociáveis? | Os 6 princípios não negociáveis, padrões de tecnologia e o KPI norteador |
+| [spec.md](sdd/spec.md) | **O quê** e **por quê**? | Histórias de usuário, critérios de aceitação, requisitos funcionais (RF) e não funcionais (RNF), casos extremos |
+| [plan.md](sdd/plan.md) | **Como**? | Arquitetura, pilha de tecnologia proposta, mapeamento M1–M7 e sequência de implementação |
+| [tasks.md](sdd/tasks.md) | Em **quais passos**? | Tarefas discretas e rastreáveis, organizadas em 8 fases |
+
+> A versão atual é uma **proposta inicial** para o kickoff. As decisões de tecnologia em `plan.md` são candidatas e devem ser ratificadas pelo time fundador. Comece por [sdd/README.md](sdd/README.md).
+
 ## Como contribuir
 
 A EVA está sendo construída de forma colaborativa e comunitária. O recrutamento é **deliberadamente inclusivo** — não exige que o participante seja especialista. Há espaço para quem programa, desenha, escreve ou contribui com visão de negócio. O critério é **querer construir**.
@@ -60,15 +75,16 @@ A EVA está sendo construída de forma colaborativa e comunitária. O recrutamen
 ## Próximos passos
 
 1. **Reunião de kickoff** — definir objetivos, organização do time e primeiros passos técnicos.
-2. Elaboração do **SDD (Software Design Document)** a partir do documento base.
-3. Definição do MVP e priorização dos módulos.
-4. Estruturação do repositório open source e do fluxo de contribuição.
+2. **Revisar e ratificar o SDD** ([sdd/](sdd/)) — fechar as decisões de tecnologia e as perguntas em aberto do [plano](sdd/plan.md).
+3. Definição do MVP e priorização dos módulos (M1–M7).
+4. Estruturação do repositório de código e do fluxo de contribuição.
 5. Continuidade do engajamento da comunidade.
 
 ## Documentação
 
 - [Projeto EVA — Resumo](Projeto%20EVA%20Resumo.md) — resumo detalhado do projeto.
-- [Projeto EVA — Documento Base](Projeto%20Eva%20Documento%20Base.md) — documento conceitual e funcional completo, insumo para o futuro SDD.
+- [Projeto EVA — Documento Base](Projeto%20Eva%20Documento%20Base.md) — documento conceitual e funcional completo, insumo para o SDD.
+- [SDD — Documentação orientada a especificações](sdd/README.md) — constituição, especificação, plano e tarefas (metodologia GitHub Spec Kit).
 - [Apresentação (PPTX)](Projeto_EVA_PUC_angels.pptx) — slides do projeto.
 
 ---
