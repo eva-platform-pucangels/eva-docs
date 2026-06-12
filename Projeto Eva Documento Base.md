@@ -1,3 +1,8 @@
+---
+title: Documento Base
+nav_order: 3
+---
+
 # Projeto EVA — Documento Base
 
 **IA Local, Privada e Open Source**

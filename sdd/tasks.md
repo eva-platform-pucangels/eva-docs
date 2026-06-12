@@ -1,3 +1,9 @@
+---
+title: Tarefas (tasks)
+parent: SDD
+nav_order: 4
+---
+
 # Lista de Tarefas — Projeto EVA
 
 > **Artefato SDD — `tasks.md`**

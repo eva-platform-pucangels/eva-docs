@@ -1,3 +1,8 @@
+---
+title: Resumo
+nav_order: 2
+---
+
 # Projeto EVA — Resumo Detalhado
 
 **O Projeto EVA** é uma iniciativa open source do Comitê de IA da PUC angels, criada com a missão de democratizar o acesso à inteligência artificial entre os membros da rede. A premissa central do projeto pode ser resumida em uma pergunta: *e se você tivesse uma IA que é sua — de verdade?* Não uma assinatura, não um acesso ao servidor de outra empresa, mas uma inteligência artificial que pertence ao usuário.

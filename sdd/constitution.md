@@ -1,3 +1,9 @@
+---
+title: Constituição
+parent: SDD
+nav_order: 1
+---
+
 # Constituição do Projeto EVA
 
 > **Artefato SDD — `constitution.md`**

@@ -1,0 +1,31 @@
+title: Projeto EVA
+description: >-
+  IA Local, Privada e Open Source — documentação do Projeto EVA,
+  iniciativa open source do Comitê de IA da PUC Angels.
+lang: pt-BR
+
+# Tema de documentação (compilado nativamente pelo GitHub Pages)
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+color_scheme: dark
+search_enabled: true
+
+# Link auxiliar no topo do site
+aux_links:
+  "Ver no GitHub":
+    - "https://github.com/eva-platform-pucangels/eva-docs"
+aux_links_new_tab: true
+
+# Rodapé
+back_to_top: true
+back_to_top_text: "Voltar ao topo"
+
+# Não processar estes arquivos/pastas na build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore

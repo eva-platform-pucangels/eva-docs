@@ -1,3 +1,9 @@
+---
+title: Especificação (spec)
+parent: SDD
+nav_order: 2
+---
+
 # Especificação Funcional — Projeto EVA
 
 > **Artefato SDD — `spec.md`**

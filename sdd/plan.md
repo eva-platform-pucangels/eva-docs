@@ -1,3 +1,9 @@
+---
+title: Plano (plan)
+parent: SDD
+nav_order: 3
+---
+
 # Plano Técnico — Projeto EVA
 
 > **Artefato SDD — `plan.md`**

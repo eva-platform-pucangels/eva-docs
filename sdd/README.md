@@ -1,3 +1,10 @@
+---
+title: SDD
+nav_order: 4
+has_children: true
+has_toc: false
+---
+
 # SDD — Documentação Orientada a Especificações do Projeto EVA
 
 Esta pasta contém a documentação de design do Projeto EVA estruturada segundo a metodologia **Spec-Driven Development (SDD)** do **GitHub Spec Kit**, conforme a [base do Microsoft Learn](https://learn.microsoft.com/pt-br/training/modules/spec-driven-development-github-spec-kit-greenfield-intro/).
